@@ -263,9 +263,12 @@ body {
 
 .games-category-content {
     display: flex;
+    flex-wrap: wrap;
     width: 1200px;
     margin: 0 auto;
     justify-content: space-around;
+    align-content: center;
+    gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -448,5 +451,15 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
+        gap: 10px;
+    }
+
+    .games-category img {
+        width: 30px;
+        height: 50px;
+    }
+
+    .games-category p {
+        font-size: 12px;
     }
 }

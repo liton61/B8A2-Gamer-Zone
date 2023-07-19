@@ -410,6 +410,7 @@ footer {
         width: 80%;
         margin-left: 0px;
         margin-top: 50px;
+        margin-bottom: 120px;
     }
 
     .main-img {
@@ -429,6 +430,7 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
         gap: 10px;
+        margin-top: 0px;
     }
 
     .games-category img {

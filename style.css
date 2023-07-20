@@ -534,6 +534,11 @@ footer {
 
 /* responsive for tablet */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .nav-container {
         width: 100%;
         margin: 0 auto;
